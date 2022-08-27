@@ -1,0 +1,22 @@
+{
+    "name": "gdronov/example-com",
+    "description": "Library for Example.com comment`s service",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Gdronov\\ExampleCom\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Grigory Dronov"
+        }
+    ],
+    "require": {
+        "php": ">=7.2"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9"
+    }
+}
